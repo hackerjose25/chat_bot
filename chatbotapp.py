@@ -11,7 +11,7 @@ import math
 # PAGE CONFIG
 # ==============================
 
-st.set_page_config(page_title="WhiteHatters | Healthcare Assistant", page_icon="🩺", layout="wide")
+st.set_page_config(page_title="Healthcare Assistant", page_icon="🩺", layout="wide")
 st.html(Path(__file__).with_name("ui.css").read_text(encoding="utf-8"))
 rays = "".join(
     f'<line x1="{26 + 10.4 * math.cos(a):.3f}" y1="{26 + 10.4 * math.sin(a):.3f}" '
@@ -19,9 +19,9 @@ rays = "".join(
     for a in (i * math.tau / 24 - math.pi / 2 for i in range(24))
 )
 st.html(f'''<header class="topbar" id="home">
-    <a class="brand" href="#home" aria-label="WhiteHatters home">
+    <a class="brand" href="#home" aria-label="Healthcare Assistant home">
     <svg viewBox="0 0 52 52" aria-hidden="true"><g stroke="#f4f4f4" stroke-width="1.4" stroke-linecap="round">{rays}</g><circle cx="26" cy="26" r="7.4" fill="#fbfbfb"/></svg>
-    <span>WhiteHatters</span></a>
+    <span>Healthcare Assistant</span></a>
     <nav aria-label="Main navigation"><a href="#assistant">Assistant</a><a href="#consultation">Consult a doctor</a></nav>
     <a class="start-button" href="#assistant">Start Free <span aria-hidden="true">↗</span></a>
     </header>

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🩺 WhiteHatters | AI Healthcare Assistant
+# 🩺 AI Healthcare Assistant
 
 ### *Your Health, a Clearer Conversation — Think Clearly. Decide Confidently.*
 
@@ -13,7 +13,7 @@
 
 <br/>
 
-**WhiteHatters Healthcare Assistant** is an intelligent, privacy-first clinical triage and conversational companion. By fusing **Random Forest machine learning** on clinical datasets with the **Ollama Phi-3 local language model**, it enables users to analyze symptoms, discover potential conditions with statistical confidence, and instantly transition to **telehealth video consultations** with human doctors.
+**AI Healthcare Assistant** is an intelligent, privacy-first clinical triage and conversational companion. By fusing **Random Forest machine learning** on clinical datasets with the **Ollama Phi-3 local language model**, it enables users to analyze symptoms, discover potential conditions with statistical confidence, and instantly transition to **telehealth video consultations** with human doctors.
 
 [Features](#-key-features) • [Architecture](#-architecture--workflow) • [Quickstart](#-quickstart--installation) • [Dataset & ML](#-machine-learning--dataset) • [Screenshots & UI](#-ui--design-system) • [Disclaimer](#-medical-disclaimer)
 
@@ -92,7 +92,7 @@ flowchart TD
 
 ## 🚀 Quickstart & Installation
 
-Follow these steps to run WhiteHatters Healthcare Assistant locally on your machine:
+Follow these steps to run the AI Healthcare Assistant locally on your machine:
 
 ### 1. Prerequisites
 - **Python**: Version 3.10, 3.11, or 3.12 installed.
@@ -188,7 +188,7 @@ healthcare_chatbot/
 > [!WARNING]
 > **NOT A SUBSTITUTE FOR PROFESSIONAL MEDICAL ADVICE**
 > 
-> The WhiteHatters AI Healthcare Assistant is an experimental application intended strictly for **educational, triage demonstration, and preliminary informational purposes**.
+> This AI Healthcare Assistant is an experimental application intended strictly for **educational, triage demonstration, and preliminary informational purposes**.
 > - It does not establish a doctor-patient relationship.
 > - Diagnostic outputs and confidence scores should never replace consultation with a certified healthcare provider.
 > - **In case of a medical emergency, immediately contact your local emergency services (e.g., 911, 112, 999) or visit the nearest emergency room.**
@@ -213,5 +213,5 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  <sub>Developed with ❤️ by <a href="https://github.com/hackerjose25">hackerjose25</a> | WhiteHatters Healthcare</sub>
+  <sub>Developed with ❤️ by <a href="https://github.com/hackerjose25">hackerjose25</a></sub>
 </div>
